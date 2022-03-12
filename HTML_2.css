@@ -1,0 +1,46 @@
+.H1
+    { text-decoration: underline}   
+.CenterTxt
+    { text-align: center;}
+.PageHead_Auth
+    { 
+        font-weight: bold;
+        font-style: italic;
+    }
+.NavBar a
+    {
+        background-color: navy;
+        color: white;
+        font-size: 20px;
+        padding; 12px;
+        text-decoration: none;
+    }
+.NavBar a:hover
+    {
+        background-color: yellowgreen;
+        color: red;
+    }
+.NavBar a.Active 
+    {
+        background-color: green;
+        color: white;
+    }
+.ImageDiv
+    {
+        width:50%;
+        margin:auto;
+    }
+.ImgNat
+{
+    max-width: 100%;
+    display: block;
+}
+.Activities
+    {
+        text-align: left;
+    }
+.Activities li
+    {
+        font-size: 20px;
+        font-weight: bold;
+    }
