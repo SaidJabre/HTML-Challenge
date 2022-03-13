@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>HTML Challenge 3</Title>
+        <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+        <Style>
+            body {
+                background-color: whtite;
+                color: black;
+                height: 100vh;
+                overflow: auto;
+            }
+            .SiteContainer {
+                margin-left: 40px;
+                margin-right: 40px;
+                height: 100%;       ;
+            }
+            .SiteHead {
+                height: 25%;
+                color: rgb(184, 222, 135);
+            }
+            .Header-Logo {
+                background-color: rgb(6, 128, 81);
+                padding:20px;
+            }
+            .SiteHead img{
+                float: right;
+                width: 150px;
+                height: 150px;
+                mix-blend-mode: multiply;
+            }
+            .HeadMenu {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+            .HeadMenu li {
+                display: inline;
+                list-style: none;
+                font-weight: bold;
+                width:100%;
+                padding:15px;
+                text-align: center;
+                background-color: rgb(184, 222, 135);
+                color: black;
+                border: 1px  solid silver;
+                border-radius: 10%;
+            }
+            main {
+                height: 55%;
+            }
+            .SiteSide {
+                width: 20%;
+                height: 100%;
+                float: left;
+                margin-right: 20px;
+            }
+            .GalSection {
+                height: 50%;
+            }
+            .SubSection {
+                height: 50%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            footer {
+                position: fixed;
+                bottom: 20;
+                height:13%;
+                width: 95%;
+                padding: 10px 10px 0px 10px;
+                text-align: center;
+                color: black;
+                background-color:rgb(184, 222, 135);
+            }
+            footer .Contact {
+                width: 70%;
+                text-align: left;
+                font-weight: bold;
+            }
+            footer h3 {
+                float: right;
+                margin-right: 0px;
+            }
+            footer #name, footer #email {
+                width: 190px;
+            }
+            footer button {
+                font-size:20px;
+                font-weight: bold;
+                height: 40px;
+                color:rgb(184, 222, 135);
+                background-color: rgb(6, 128, 81);
+            }
+        </Style>
+    </head>
+    <body>
+        <div class="SiteContainer">
+            <header class="SiteHead">
+                <article class="Header-Logo">
+                    <img src="go-green.jpg" />
+                    <h1>TECHNOLOGY FOR LIFE</h1>
+                    <h3>Technology Solutions That Empower Life On Earth</h3>
+                </article>
+                <article class="SiteMenu">
+                    <nav class="HeadMenu">
+                        <li>Home</li>
+                        <li>Contact</li>
+                        <li>New Page 1</li>
+                        <li>New Page 2</li>
+                        <li>New Page 3</li>
+                    </nav>
+                </article>
+            </header>
+            <main>
+                <aside class="SiteSide">
+                    <article>
+                        <header><h2>Main Menu</h2></header>
+                        <ul>
+                            <li>Menu 1</li>
+                            <li>Menu 2</li>
+                            <li>Menu 3</li>
+                            <li>Menu 4</li>
+                            <li>Menu 5</li>
+                            <li>Menu 6</li>
+                            <li>Menu 7</li>
+                            <li>Menu 8</li>
+                            <li>Menu 9</li>
+                        </ul>
+                    </article>
+                    <article>
+                        <header><h2>Block</h2></header>
+                        <p>blah blah blah blah blah</p>
+                        <p>
+                            blah blah blah blah blahblah blah blah blah blahblah blahblah blah blah blah
+                        </p>
+                    </article>
+                </aside>
+                <section class="GalSection">
+                    <article>
+                        <head><h2>Gallery</h2></head><hr>
+                        <p>
+                            blah blah blah blah blahblah blah blah blah blahblah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blah blah blah blah
+                            blah blah blah blah blahblah blah blah blah blahblah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blah blah blah blah
+                            blah blah blah blah blahblah blah blah blah blahblah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blah blah blah blah
+                        </p>
+                    </article>
+                </section>
+                <section class="SubSection">
+                    <article>
+                        <head><h2>Subscription</h2></head>
+                        <p>
+                            blah blah blah blah blahblah blah blah blah blahblah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blah blah blah blah
+                        </p>  
+                    </article>
+                    <article>
+                        <head><h2>Other Services</h2></head>
+                        <p>
+                            blah blah blah blah blahblah blah blah blah blahblah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blah blah blah blah
+                        </p>  
+                    </article>
+                </section>
+            </main>
+            <hr>
+            <footer>
+                <h3>copyright @ 2022</h3>
+                <fieldset class="Contact">
+                    <legend>Contact Us</legend>
+                        <form>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" /> 
+                            <label for="email">Email</label>
+                            <input type="email" id="email" /> 
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="1" cols="40">
+                            </textarea>
+                            <button type="submit">Submit</button>
+                        </form> 
+                </fieldset>
+            </footer>
+        </div>
+    </body>
+</html>
