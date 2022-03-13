@@ -7,20 +7,28 @@
         font-weight: bold;
         font-style: italic;
     }
-.NavBar a
+.NavBar 
     {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        background-color: silver;
+        padding-right: 20px;
+    }
+ .NavBar li {
+        display: inline;
+        padding: 0 10px;
+        list-style: none;
         background-color: navy;
         color: white;
         font-size: 20px;
-        padding; 12px;
-        text-decoration: none;
     }
-.NavBar a:hover
+.NavBar li:hover
     {
         background-color: yellowgreen;
         color: red;
     }
-.NavBar a.Active 
+.NavBar li.Active 
     {
         background-color: green;
         color: white;

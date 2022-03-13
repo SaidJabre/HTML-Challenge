@@ -1,42 +1,44 @@
-<HTML>
-
+<!DOCTYPE html>
+<html>
     <head>
         <title>HTML Challenge 2</title>
-        <link rel="stylesheet" href="HTML_2.css" />
+        <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+        <link rel="stylesheet" tyep="text/css" href="HTML_2.css" />
     </head>
     <body>
         <header role="banner" class="PageHead">
             <h1 class="H1 CenterTxt">HTML Challenge Level 2</h1>
             <p class="PageHead_Auth">By Said Jabre</p>
+            <nav class="NavBar">
+                <ul>
+                    <li class="Active">Home</li>
+                    <li>Link 2</li>
+                    <li>Link 3</li>
+                </ul>
+            </nav>
         </header>
         <main role="main">
-            <div class="NavBar">
-                <a href="#" class="Active">home</a>
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-            </div>
-            <div class="CenterTxt">
-                <p><h3>Nature is the Best</h3></p>
-                <div class="ImageDiv">
-                    <img class="ImgNat" title="Nature Preserveration" alt="Nature" src="Hand-Tree.jpg" contextmenu="skymenu"></img>           
-                    <figurecaption class="ImgList">
-                        <ul class="Activities">
-                            <li>Planting</li>
-                            <li>Growing</li>
-                            <li>Treating</li>
-                            <li>Watering</li>
-                            <li>Protecting</li>
-                        </ul>
-                    </figurecaption>
-                </div>
-            </div>    
+            <section class="CenterTxt">
+                <article>
+                    <header><h3>Nature is the Best</h3></header>
+                    <div class="ImageDiv">
+                        <img class="ImgNat" title="Nature Preserveration" alt="Nature" src="Hand-Tree.jpg" contextmenu="skymenu"></img>           
+                        <figurecaption class="ImgList">
+                            <ul class="Activities">
+                                <li>Planting</li>
+                                <li>Growing</li>
+                                <li>Treating</li>
+                                <li>Watering</li>
+                                <li>Protecting</li>
+                            </ul>
+                        </figurecaption>
+                    </div>
+                </article>
+            </section>    
         </main>
         <footer>
-            <h2>Date: <time datetime="2022-03-12">Mar 12, 20222</time></h2>
-            <h3>@codi</h3>
+            <h2>Date: <time datetime="2022-03-12">Mar 12, 20222</time><small> - @codi</small></h2>
         </footer>
         
     </body>
-
-</HTML>
+</html>
